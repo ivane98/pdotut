@@ -29,10 +29,33 @@ form {
 }
 
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
 }
 
 form {
   display: flex;
   flex-direction: column;
+}
+
+input,
+button {
+  padding: 0.5rem;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  color: #fff;
+  background: dodgerblue;
+}
+
+.update {
+  margin-bottom: 0.25rem;
+}
+
+.red {
+  background: orangered;
 }
